@@ -1,0 +1,6 @@
+{
+  "name": "BIZORA",
+  "description": "Premium Full-Stack Business & E-Commerce Website featuring curated fashion, perfumes, watches, shoes, and luxury accessories with complete shop and order management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

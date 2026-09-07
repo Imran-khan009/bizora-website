@@ -1,0 +1,1037 @@
+{
+  "users": [
+    {
+      "id": "user_admin",
+      "name": "BIZORA Admin",
+      "email": "admin@bizora.com",
+      "phone": "+92 300 1234567",
+      "passwordHash": "$2b$10$r59U.//GfAe1/8ZG.6EYye9kvChIeubZK6g3gNItpCpYklsW1ZQGu",
+      "role": "admin",
+      "address": {
+        "street": "MM Alam Road",
+        "city": "Lahore",
+        "province": "Punjab",
+        "postalCode": "54000",
+        "country": "Pakistan"
+      },
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "user_customer",
+      "name": "Taimoor Shah",
+      "email": "customer@bizora.com",
+      "phone": "+92 321 9876543",
+      "passwordHash": "$2b$10$M0hUVNAo1lkh3G4rem5Xbemi6K9TtP/kLS7aq9A2n/RN2AH0kWgVK",
+      "role": "customer",
+      "address": {
+        "street": "House 45, Sector F-7/2",
+        "city": "Islamabad",
+        "province": "Islamabad Capital",
+        "postalCode": "44000",
+        "country": "Pakistan"
+      },
+      "createdAt": "2026-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "user_1788786646060_eo0bx",
+      "role": "customer",
+      "createdAt": "2026-09-07T13:10:46.060Z",
+      "name": "Imran Khan",
+      "email": "engrimrantareen@gmail.com",
+      "phone": "03130267697",
+      "passwordHash": "$2b$10$4hFZIk49t/qU7vQjd6isZ.y/siXaWbwN9aA801w6buw5rW2fkXKLi",
+      "address": {
+        "street": "Jam Yousaf Colony District Hub",
+        "city": "Other",
+        "province": "Punjab",
+        "postalCode": "69090"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_shoes",
+      "name": "Shoes",
+      "slug": "shoes",
+      "image": "/uploads/regenerated_image_1788787471690.png",
+      "description": "Handcrafted leather oxfords, artisan boots, and premium sneakers engineered for timeless elegance.",
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "id": "cat_perfumes",
+      "name": "Perfumes",
+      "slug": "perfumes",
+      "image": "/uploads/regenerated_image_1788787478718.jpg",
+      "description": "Opulent Eau De Parfums enriched with pure royal oud, damascene rose, and radiant amber accords.",
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "id": "cat_watches",
+      "name": "Watches",
+      "slug": "watches",
+      "image": "/uploads/regenerated_image_1788787497825.png",
+      "description": "Precision-engineered chronographs, sapphire crystal automatics, and minimalist luxury timepieces.",
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "id": "cat_caps",
+      "name": "Caps",
+      "slug": "caps",
+      "image": "/uploads/regenerated_image_1788787484237.png",
+      "description": "Structured wool caps, monogram embroidered snapbacks, and tailored street luxury headwear.",
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "id": "cat_cosmetics",
+      "name": "Cosmetics",
+      "slug": "cosmetics",
+      "image": "/uploads/regenerated_image_1788787488028.jpg",
+      "description": "Dermatologist-formulated 24K gold serums, satin matte lip colors, and velvet skin nourishment.",
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "id": "cat_fashion",
+      "name": "Fashion",
+      "slug": "fashion",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=800&auto=format&fit=crop",
+      "description": "Tailored Italian wool suits, merino knitwear, and modern silhouettes crafted for discerning taste.",
+      "featured": true,
+      "status": "active"
+    },
+    {
+      "id": "cat_accessories",
+      "name": "Accessories",
+      "slug": "accessories",
+      "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=800&auto=format&fit=crop",
+      "description": "Full-grain leather wallets, handcrafted brass cufflinks, titanium eyewear, and leather belts.",
+      "featured": true,
+      "status": "active"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_shoes_1",
+      "name": "BIZORA Royal Oxford Handcrafted Leather Shoes",
+      "slug": "bizora-royal-oxford-handcrafted-leather-shoes",
+      "description": "Forged from full-grain calfskin leather, the Royal Oxford features a classic cap-toe silhouette, hand-burnished deep cognac finish, and Blake-stitched Italian leather soles with anti-slip rubber taps for supreme comfort and enduring distinction.",
+      "price": 18500,
+      "discountPrice": 15999,
+      "images": [
+        "/uploads/regenerated_image_1788787471690.png"
+      ],
+      "category": "shoes",
+      "stock": 23,
+      "rating": 4.9,
+      "reviewsCount": 38,
+      "featured": true,
+      "sale": true,
+      "specifications": [
+        {
+          "key": "Material",
+          "value": "100% Full-grain Italian Calfskin"
+        },
+        {
+          "key": "Construction",
+          "value": "Hand-welted Blake Stitch"
+        },
+        {
+          "key": "Lining",
+          "value": "Soft Breathable Sheepskin"
+        },
+        {
+          "key": "Origin",
+          "value": "Handcrafted in Atelier"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev_1",
+          "userName": "Farhan Malik",
+          "rating": 5,
+          "comment": "Impeccable craft. The leather is supple and the hand-burnish cognac looks ten times richer in person.",
+          "createdAt": "2026-02-15T10:20:00.000Z"
+        },
+        {
+          "id": "rev_2",
+          "userName": "Usman Tariq",
+          "rating": 5,
+          "comment": "Arrived in 2 days in Lahore via Cash on Delivery. Fits true to European size 42.",
+          "createdAt": "2026-02-28T14:15:00.000Z"
+        }
+      ],
+      "createdAt": "2026-09-07T12:05:06.507Z",
+      "status": "active",
+      "sku": "BZ-SHO-ES_1",
+      "shortDescription": "Forged from full-grain calfskin leather, the Royal Oxford features a classic cap-toe silhouette, hand-burnished deep cognac finish, and Blak",
+      "mainImage": "/uploads/regenerated_image_1788787471690.png"
+    },
+    {
+      "id": "prod_shoes_2",
+      "name": "BIZORA AirGlide Minimalist Cloud Sneakers",
+      "slug": "bizora-airglide-minimalist-cloud-sneakers",
+      "description": "Designed for urban momentum. Clean monochrome Italian nappa leather upper combined with an ultra-lightweight EVA midsole and cushioned memory foam insole.",
+      "price": 11900,
+      "discountPrice": 9999,
+      "images": [
+        "/uploads/regenerated_image_1788787471690.png"
+      ],
+      "category": "shoes",
+      "stock": 35,
+      "rating": 4.8,
+      "reviewsCount": 52,
+      "featured": true,
+      "sale": true,
+      "specifications": [
+        {
+          "key": "Upper",
+          "value": "Nappa Leather"
+        },
+        {
+          "key": "Sole",
+          "value": "Custom Ultralight EVA Foam"
+        },
+        {
+          "key": "Weight",
+          "value": "290g per shoe"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev_3",
+          "userName": "Hamza Riaz",
+          "rating": 5,
+          "comment": "The most comfortable pair of clean white sneakers I have ever owned. Exceptional quality.",
+          "createdAt": "2026-03-01T12:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-09-07T12:05:06.507Z",
+      "status": "active",
+      "sku": "BZ-SHO-ES_2",
+      "shortDescription": "Designed for urban momentum. Clean monochrome Italian nappa leather upper combined with an ultra-lightweight EVA midsole and cushioned memor",
+      "mainImage": "/uploads/regenerated_image_1788787471690.png"
+    },
+    {
+      "id": "prod_perfume_1",
+      "name": "BIZORA Oud Royale Eau De Parfum (100ml)",
+      "slug": "bizora-oud-royale-eau-de-parfum",
+      "description": "A majestic oriental scent opening with spicy saffron and nutmeg, unfurling into rich agarwood (oud), smoked frankincense, and a warm trail of dark amber and patchouli. Exceptional 14-hour longevity.",
+      "price": 14500,
+      "discountPrice": 12499,
+      "images": [
+        "/uploads/regenerated_image_1788787494636.png",
+        "/uploads/regenerated_image_1788787478718.jpg"
+      ],
+      "category": "perfumes",
+      "stock": 40,
+      "rating": 5,
+      "reviewsCount": 74,
+      "featured": true,
+      "sale": true,
+      "specifications": [
+        {
+          "key": "Volume",
+          "value": "100ml / 3.4 fl oz"
+        },
+        {
+          "key": "Concentration",
+          "value": "Eau De Parfum (25% Oil Essence)"
+        },
+        {
+          "key": "Top Notes",
+          "value": "Persian Saffron, Nutmeg, Lavender"
+        },
+        {
+          "key": "Heart Notes",
+          "value": "Cambodian Agarwood, Smoked Oud"
+        },
+        {
+          "key": "Base Notes",
+          "value": "Amber, Patchouli, Velvet Musk"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev_4",
+          "userName": "Ahmed Sheikh",
+          "rating": 5,
+          "comment": "Sublime oud fragrance! The sillage and projection are incredible without being overpowering.",
+          "createdAt": "2026-02-18T18:30:00.000Z"
+        }
+      ],
+      "createdAt": "2026-09-07T12:05:06.507Z",
+      "status": "active",
+      "sku": "BZ-PER-ME_1",
+      "shortDescription": "A majestic oriental scent opening with spicy saffron and nutmeg, unfurling into rich agarwood (oud), smoked frankincense, and a warm trail o",
+      "mainImage": "/uploads/regenerated_image_1788787494636.png"
+    },
+    {
+      "id": "prod_perfume_2",
+      "name": "BIZORA Velvet Rose Noir Parfum (100ml)",
+      "slug": "bizora-velvet-rose-noir-parfum",
+      "description": "Sensual Damascena rose steeped in dark chocolate, black pepper, and Tahitian vanilla bean. A magnetic fragrance created for glamorous evenings.",
+      "price": 13200,
+      "discountPrice": 11500,
+      "images": [
+        "/uploads/regenerated_image_1788787478718.jpg",
+        "/uploads/regenerated_image_1788787494636.png"
+      ],
+      "category": "perfumes",
+      "stock": 28,
+      "rating": 4.8,
+      "reviewsCount": 41,
+      "featured": false,
+      "sale": true,
+      "specifications": [
+        {
+          "key": "Volume",
+          "value": "100ml"
+        },
+        {
+          "key": "Concentration",
+          "value": "Parfum Extrait"
+        }
+      ],
+      "createdAt": "2026-09-07T12:05:06.507Z",
+      "status": "active",
+      "sku": "BZ-PER-ME_2",
+      "shortDescription": "Sensual Damascena rose steeped in dark chocolate, black pepper, and Tahitian vanilla bean. A magnetic fragrance created for glamorous evenin",
+      "mainImage": "/uploads/regenerated_image_1788787478718.jpg"
+    },
+    {
+      "id": "prod_watch_1",
+      "name": "BIZORA Chrono Master Automatic Watch",
+      "slug": "bizora-chrono-master-automatic-watch",
+      "description": "Exquisite horology meets contemporary executive design. 41mm 316L stainless steel case, anti-reflective domed sapphire crystal, 42-hour power reserve Japanese mechanical movement, and quick-release genuine alligator-grain leather strap.",
+      "price": 34500,
+      "discountPrice": 29900,
+      "images": [
+        "/uploads/regenerated_image_1788787497825.png"
+      ],
+      "category": "watches",
+      "stock": 15,
+      "rating": 4.9,
+      "reviewsCount": 65,
+      "featured": true,
+      "sale": true,
+      "specifications": [
+        {
+          "key": "Case Diameter",
+          "value": "41mm"
+        },
+        {
+          "key": "Movement",
+          "value": "Miyota 9015 Automatic Mechanical"
+        },
+        {
+          "key": "Glass",
+          "value": "Anti-Scratch Sapphire Crystal"
+        },
+        {
+          "key": "Water Resistance",
+          "value": "10 ATM (100 Meters)"
+        },
+        {
+          "key": "Warranty",
+          "value": "2-Year International BIZORA Guarantee"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev_5",
+          "userName": "Bilal Hashmi",
+          "rating": 5,
+          "comment": "Remarkable timepiece. Weighty, perfectly balanced on the wrist, and keeps razor-sharp time.",
+          "createdAt": "2026-02-10T11:45:00.000Z"
+        }
+      ],
+      "createdAt": "2026-09-07T12:05:06.507Z",
+      "status": "active",
+      "sku": "BZ-WAT-CH_1",
+      "shortDescription": "Exquisite horology meets contemporary executive design. 41mm 316L stainless steel case, anti-reflective domed sapphire crystal, 42-hour powe",
+      "mainImage": "/uploads/regenerated_image_1788787497825.png"
+    },
+    {
+      "id": "prod_watch_2",
+      "name": "BIZORA Sapphire Eclipse Minimalist Watch",
+      "slug": "bizora-sapphire-eclipse-minimalist-watch",
+      "description": "Ultra-slim 7mm profile with matte sunray obsidian black dial, polished indices, and Milanese stainless steel mesh band with magnetic clasp.",
+      "price": 19500,
+      "discountPrice": 16800,
+      "images": [
+        "/uploads/regenerated_image_1788787497825.png"
+      ],
+      "category": "watches",
+      "stock": 22,
+      "rating": 4.7,
+      "reviewsCount": 33,
+      "featured": false,
+      "sale": false,
+      "specifications": [
+        {
+          "key": "Case Thickness",
+          "value": "7.2mm Ultra-thin"
+        },
+        {
+          "key": "Dial",
+          "value": "Sunburst Obsidian"
+        }
+      ],
+      "createdAt": "2026-09-07T12:05:06.507Z",
+      "status": "active",
+      "sku": "BZ-WAT-CH_2",
+      "shortDescription": "Ultra-slim 7mm profile with matte sunray obsidian black dial, polished indices, and Milanese stainless steel mesh band with magnetic clasp.",
+      "mainImage": "/uploads/regenerated_image_1788787497825.png"
+    },
+    {
+      "id": "prod_cap_1",
+      "name": "BIZORA Signature Monogram Snapback Cap",
+      "slug": "bizora-signature-monogram-snapback-cap",
+      "description": "Crafted from premium structured heavyweight cotton twill with an embossed gold-thread BIZORA crest, moisture-wicking satin sweatband, and adjustable metallic rear closure.",
+      "price": 3400,
+      "discountPrice": 2899,
+      "images": [
+        "/uploads/regenerated_image_1788787504402.png",
+        "/uploads/regenerated_image_1788787484237.png"
+      ],
+      "category": "caps",
+      "stock": 50,
+      "rating": 4.9,
+      "reviewsCount": 88,
+      "featured": true,
+      "sale": true,
+      "specifications": [
+        {
+          "key": "Material",
+          "value": "100% Organic Heavyweight Cotton"
+        },
+        {
+          "key": "Closure",
+          "value": "Matte Metal Clasp"
+        },
+        {
+          "key": "Fit",
+          "value": "Universal Adjustable (54-61cm)"
+        }
+      ],
+      "createdAt": "2026-09-07T12:05:06.507Z",
+      "status": "active",
+      "sku": "BZ-CAP-AP_1",
+      "shortDescription": "Crafted from premium structured heavyweight cotton twill with an embossed gold-thread BIZORA crest, moisture-wicking satin sweatband, and ad",
+      "mainImage": "/uploads/regenerated_image_1788787504402.png"
+    },
+    {
+      "id": "prod_cap_2",
+      "name": "BIZORA Heritage Wool Tweed Flat Cap",
+      "slug": "bizora-heritage-wool-tweed-flat-cap",
+      "description": "Classic British sartorial tradition. Woven from 100% pure Shetland wool with quilted silk lining for cool weather warmth and understated sophistication.",
+      "price": 4500,
+      "discountPrice": 3800,
+      "images": [
+        "/uploads/regenerated_image_1788787484237.png",
+        "/uploads/regenerated_image_1788787504402.png"
+      ],
+      "category": "caps",
+      "stock": 30,
+      "rating": 4.8,
+      "reviewsCount": 29,
+      "featured": false,
+      "sale": false,
+      "specifications": [
+        {
+          "key": "Material",
+          "value": "Pure Shetland Wool"
+        },
+        {
+          "key": "Lining",
+          "value": "Quilted Thermal Satin"
+        }
+      ],
+      "createdAt": "2026-09-07T12:05:06.507Z",
+      "status": "active",
+      "sku": "BZ-CAP-AP_2",
+      "shortDescription": "Classic British sartorial tradition. Woven from 100% pure Shetland wool with quilted silk lining for cool weather warmth and understated sop",
+      "mainImage": "/uploads/regenerated_image_1788787484237.png"
+    },
+    {
+      "id": "prod_cosmetics_1",
+      "name": "BIZORA 24K Gold Radiant Youth Elixir (50ml)",
+      "slug": "bizora-24k-gold-radiant-youth-elixir",
+      "description": "Infused with pure 24K micro-gold flakes, multi-molecular hyaluronic acid, and botanical bakuchiol to stimulate cellular renewal, brighten complexion, and deliver deep non-comedogenic moisture.",
+      "price": 8900,
+      "discountPrice": 7499,
+      "images": [
+        "/uploads/regenerated_image_1788787488028.jpg"
+      ],
+      "category": "cosmetics",
+      "stock": 45,
+      "rating": 5,
+      "reviewsCount": 92,
+      "featured": true,
+      "sale": true,
+      "specifications": [
+        {
+          "key": "Volume",
+          "value": "50ml Pipette Bottle"
+        },
+        {
+          "key": "Skin Type",
+          "value": "All Skin Types, Sensitive Safe"
+        },
+        {
+          "key": "Formula",
+          "value": "Clean, Paraben-Free, Cruelty-Free"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev_6",
+          "userName": "Ayesha Khan",
+          "rating": 5,
+          "comment": "Visible radiance within 3 days. Light texture, absorbs immediately without grease.",
+          "createdAt": "2026-03-02T16:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-09-07T12:05:06.507Z",
+      "status": "active",
+      "sku": "BZ-COS-CS_1",
+      "shortDescription": "Infused with pure 24K micro-gold flakes, multi-molecular hyaluronic acid, and botanical bakuchiol to stimulate cellular renewal, brighten co",
+      "mainImage": "/uploads/regenerated_image_1788787488028.jpg"
+    },
+    {
+      "id": "prod_cosmetics_2",
+      "name": "BIZORA Satin Velvet Matte Lipstick Trio",
+      "slug": "bizora-satin-velvet-matte-lipstick-trio",
+      "description": "Curated collection of three essential shades: Crimson Noir, Nude Cashmere, and Dusky Plum. Formulated with shea butter and vitamin E for 12-hour comfortable wear.",
+      "price": 4900,
+      "discountPrice": 4200,
+      "images": [
+        "https://images.unsplash.com/photo-1586495777744-4413f21062fa?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "category": "cosmetics",
+      "stock": 60,
+      "rating": 4.7,
+      "reviewsCount": 45,
+      "featured": false,
+      "sale": true,
+      "specifications": [
+        {
+          "key": "Finish",
+          "value": "Velvet Hydrating Matte"
+        },
+        {
+          "key": "Shades",
+          "value": "3 Full Size Lipsticks"
+        }
+      ],
+      "createdAt": "2026-09-07T12:05:06.507Z",
+      "status": "active",
+      "sku": "BZ-COS-CS_2",
+      "shortDescription": "Curated collection of three essential shades: Crimson Noir, Nude Cashmere, and Dusky Plum. Formulated with shea butter and vitamin E for 12-"
+    },
+    {
+      "id": "prod_fashion_1",
+      "name": "BIZORA Tailored Italian Wool Double-Breasted Blazer",
+      "slug": "bizora-tailored-italian-wool-double-breasted-blazer",
+      "description": "Exemplary tailoring in fine Super 130s Italian virgin wool. Structured roped shoulders, hand-stitched peak lapels, horn buttons, and cupro silk lining.",
+      "price": 38900,
+      "discountPrice": 33500,
+      "images": [
+        "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "category": "fashion",
+      "stock": 18,
+      "rating": 4.9,
+      "reviewsCount": 37,
+      "featured": true,
+      "sale": false,
+      "specifications": [
+        {
+          "key": "Fabric",
+          "value": "100% Italian Super 130s Wool"
+        },
+        {
+          "key": "Cut",
+          "value": "Modern Tailored Fit"
+        },
+        {
+          "key": "Care",
+          "value": "Dry Clean Only"
+        }
+      ],
+      "createdAt": "2026-09-07T12:05:06.507Z",
+      "status": "active",
+      "sku": "BZ-FAS-ON_1",
+      "shortDescription": "Exemplary tailoring in fine Super 130s Italian virgin wool. Structured roped shoulders, hand-stitched peak lapels, horn buttons, and cupro s"
+    },
+    {
+      "id": "prod_fashion_2",
+      "name": "BIZORA Mongolian Cashmere Knit Polo",
+      "slug": "bizora-mongolian-cashmere-knit-polo",
+      "description": "Spun from 2-ply grade-A Mongolian cashmere. Exceptionally soft, temperature-regulating, and tailored with genuine mother-of-pearl buttons.",
+      "price": 16500,
+      "discountPrice": 13900,
+      "images": [
+        "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "category": "fashion",
+      "stock": 25,
+      "rating": 4.8,
+      "reviewsCount": 22,
+      "featured": false,
+      "sale": true,
+      "specifications": [
+        {
+          "key": "Material",
+          "value": "100% Grade A Cashmere"
+        },
+        {
+          "key": "Gauge",
+          "value": "12GG Fine Knit"
+        }
+      ],
+      "createdAt": "2026-09-07T12:05:06.507Z",
+      "status": "active",
+      "sku": "BZ-FAS-ON_2",
+      "shortDescription": "Spun from 2-ply grade-A Mongolian cashmere. Exceptionally soft, temperature-regulating, and tailored with genuine mother-of-pearl buttons."
+    },
+    {
+      "id": "prod_acc_1",
+      "name": "BIZORA Full-Grain Leather Bi-Fold Executive Wallet",
+      "slug": "bizora-full-grain-leather-bi-fold-executive-wallet",
+      "description": "Constructed from vegetable-tanned full-grain bridle leather with RFID-blocking protection, 8 card slots, dual cash compartments, and hand-burnished edges.",
+      "price": 4800,
+      "discountPrice": 3999,
+      "images": [
+        "https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "category": "accessories",
+      "stock": 50,
+      "rating": 4.9,
+      "reviewsCount": 68,
+      "featured": true,
+      "sale": true,
+      "specifications": [
+        {
+          "key": "Leather",
+          "value": "Vegetable-tanned full-grain cowhide"
+        },
+        {
+          "key": "Features",
+          "value": "RFID Shielding Layer"
+        }
+      ],
+      "createdAt": "2026-09-07T12:05:06.507Z",
+      "status": "active",
+      "sku": "BZ-ACC-CC_1",
+      "shortDescription": "Constructed from vegetable-tanned full-grain bridle leather with RFID-blocking protection, 8 card slots, dual cash compartments, and hand-bu"
+    },
+    {
+      "id": "prod_acc_2",
+      "name": "BIZORA Titanium Polarized Aviator Sunglasses",
+      "slug": "bizora-titanium-polarized-aviator-sunglasses",
+      "description": "Ultra-lightweight aerospace grade titanium frame weighing only 18 grams. Equipped with Carl Zeiss polarized lenses providing 100% UVA/UVB protection and crystal visual clarity.",
+      "price": 12500,
+      "discountPrice": 10500,
+      "images": [
+        "https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=1000&auto=format&fit=crop"
+      ],
+      "category": "accessories",
+      "stock": 20,
+      "rating": 4.9,
+      "reviewsCount": 42,
+      "featured": true,
+      "sale": false,
+      "specifications": [
+        {
+          "key": "Frame",
+          "value": "Aerospace Beta Titanium"
+        },
+        {
+          "key": "Lenses",
+          "value": "Category 3 Polarized, Scratch-Resistant"
+        }
+      ],
+      "createdAt": "2026-09-07T12:05:06.507Z",
+      "status": "active",
+      "sku": "BZ-ACC-CC_2",
+      "shortDescription": "Ultra-lightweight aerospace grade titanium frame weighing only 18 grams. Equipped with Carl Zeiss polarized lenses providing 100% UVA/UVB pr"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1001",
+      "userId": "user_customer",
+      "items": [
+        {
+          "productId": "prod_perfume_1",
+          "productName": "BIZORA Oud Royale Eau De Parfum (100ml)",
+          "productImage": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=1000&auto=format&fit=crop",
+          "price": 12499,
+          "quantity": 1,
+          "subtotal": 12499
+        },
+        {
+          "productId": "prod_acc_1",
+          "productName": "BIZORA Full-Grain Leather Bi-Fold Executive Wallet",
+          "productImage": "https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=1000&auto=format&fit=crop",
+          "price": 3999,
+          "quantity": 1,
+          "subtotal": 3999
+        }
+      ],
+      "customerInfo": {
+        "fullName": "Taimoor Shah",
+        "email": "customer@bizora.com",
+        "phone": "+92 321 9876543",
+        "address": "House 45, Sector F-7/2",
+        "city": "Islamabad",
+        "province": "Islamabad Capital",
+        "postalCode": "44000",
+        "notes": "Please call before arrival."
+      },
+      "subtotal": 16498,
+      "deliveryFee": 0,
+      "discountAmount": 1649,
+      "total": 14849,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Paid",
+      "status": "Delivered",
+      "createdAt": "2026-02-12T14:30:00.000Z"
+    },
+    {
+      "id": "ord_1002",
+      "userId": "user_customer",
+      "items": [
+        {
+          "productId": "prod_shoes_1",
+          "productName": "BIZORA Royal Oxford Handcrafted Leather Shoes",
+          "productImage": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1000&auto=format&fit=crop",
+          "price": 15999,
+          "quantity": 1,
+          "subtotal": 15999
+        }
+      ],
+      "customerInfo": {
+        "fullName": "Zainab Tariq",
+        "email": "zainab.tariq@example.com",
+        "phone": "+92 333 4455667",
+        "address": "Clifton Block 4, Sea View Road",
+        "city": "Karachi",
+        "province": "Sindh",
+        "postalCode": "75600",
+        "notes": "Ring bell 4B"
+      },
+      "subtotal": 15999,
+      "deliveryFee": 0,
+      "total": 15999,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Unpaid",
+      "status": "Shipped",
+      "createdAt": "2026-03-04T09:15:00.000Z"
+    },
+    {
+      "id": "ord_1003",
+      "items": [
+        {
+          "productId": "prod_cap_1",
+          "productName": "BIZORA Signature Monogram Snapback Cap",
+          "productImage": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=1000&auto=format&fit=crop",
+          "price": 2899,
+          "quantity": 2,
+          "subtotal": 5798
+        }
+      ],
+      "customerInfo": {
+        "fullName": "Danish Ali",
+        "email": "danish.ali@gmail.com",
+        "phone": "+92 301 5566778",
+        "address": "DHA Phase 5, Street 12",
+        "city": "Lahore",
+        "province": "Punjab",
+        "postalCode": "54792",
+        "notes": ""
+      },
+      "subtotal": 5798,
+      "deliveryFee": 0,
+      "total": 5798,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Unpaid",
+      "status": "Pending",
+      "createdAt": "2026-09-07T12:05:06.704Z"
+    },
+    {
+      "id": "ord_1102",
+      "status": "Pending",
+      "paymentStatus": "Unpaid",
+      "createdAt": "2026-09-07T12:18:27.841Z",
+      "items": [
+        {
+          "productId": "prod_shoes_1",
+          "productName": "BIZORA Royal Oxford Handcrafted Leather Shoes",
+          "productImage": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1000&auto=format&fit=crop",
+          "price": 15999,
+          "quantity": 1,
+          "subtotal": 15999
+        }
+      ],
+      "customerInfo": {
+        "fullName": "Hamza Abbasi",
+        "email": "hamza@example.com",
+        "phone": "03009988776",
+        "address": "House 12, Street 4, Gulberg II",
+        "city": "Lahore",
+        "province": "Punjab",
+        "postalCode": "54000",
+        "notes": "Fragile luxury packaging"
+      },
+      "subtotal": 15999,
+      "deliveryFee": 0,
+      "discountAmount": 0,
+      "total": 15999,
+      "paymentMethod": "Cash on Delivery (COD)"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "cnt_1",
+      "name": "Kamran Siddiqui",
+      "email": "kamran@corporate.pk",
+      "phone": "+92 300 9988776",
+      "subject": "Corporate Gifting Inquiries for Eid Collection",
+      "message": "Hello BIZORA Team, we are interested in ordering 50 units of the BIZORA Leather Bi-fold wallets with custom corporate embossing for our executive team. Kindly share catalog and bulk pricing.",
+      "read": false,
+      "createdAt": "2026-03-01T15:00:00.000Z"
+    },
+    {
+      "id": "cnt_2",
+      "name": "Sana Mir",
+      "email": "sana.mir@yahoo.com",
+      "phone": "+92 321 1122334",
+      "subject": "Perfume Sample Kit Availability",
+      "message": "Do you offer a discovery mini discovery set for the Oud Royale and Velvet Rose fragrances before purchasing the 100ml bottles?",
+      "read": true,
+      "createdAt": "2026-02-25T11:20:00.000Z"
+    },
+    {
+      "id": "cnt_1788783516738",
+      "read": false,
+      "createdAt": "2026-09-07T12:18:36.738Z",
+      "name": "Ayesha Malik",
+      "email": "ayesha@bizora.com",
+      "phone": "03211234567",
+      "subject": "Bespoke Fitting Consultation",
+      "message": "I would like to arrange an appointment at your MM Alam Road atelier."
+    }
+  ],
+  "settings": {
+    "siteName": "BIZORA",
+    "tagline": "Modern Business & Luxury E-Commerce",
+    "logoText": "BIZORA",
+    "logoUrl": "",
+    "content": {
+      "hero": {
+        "eyebrow": "The Atelier Collection • Summer 2026",
+        "heading": "The Pinnacle of Premium Craft.",
+        "description": "Discover our curated selection of high-performance timepieces, pure extrait parfums, handcrafted leather footwear, and tailored menswear. Engineered with uncompromising standards and nationwide Cash on Delivery across Pakistan.",
+        "buttonText": "Shop Now",
+        "buttonLink": "shop",
+        "secondaryButtonText": "Learn More",
+        "secondaryButtonLink": "about",
+        "heroImage": "/uploads/regenerated_image_1788787466475.png",
+        "featuredBadgeTitle": "Featured Timepiece",
+        "featuredBadgeName": "BIZORA Chrono Master Automatic",
+        "featuredBadgePrice": "Rs. 29,900",
+        "image": "/uploads/regenerated_image_1788787466475.png"
+      },
+      "about": {
+        "heading": "BIZORA Atelier & Modern Distinction",
+        "description": "Founded on the philosophy that true luxury resides in meticulous attention to detail, BIZORA brings together heritage artisan shoemaking, master horology, and exotic botanical perfumery for discerning clients.",
+        "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1000&auto=format&fit=crop"
+      },
+      "promo": {
+        "badge": "Exclusive Privilege",
+        "heading": "The Sovereign Collection.",
+        "description": "Order handcrafted royal footwear, rare pure agarwood perfumes, or executive chronographs today and receive complimentary express shipping plus an extra 10% off with invitation code.",
+        "code": "BIZORA10",
+        "buttonText": "Apply In Bag & Shop",
+        "buttonLink": "shop",
+        "bannerImage": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1000&auto=format&fit=crop"
+      },
+      "whyChooseUs": [
+        {
+          "id": "1",
+          "title": "Quality Products",
+          "description": "100% genuine full-grain leather, Swiss-standard movements, and certified natural fragrance oils.",
+          "icon": "Award",
+          "color": "amber"
+        },
+        {
+          "id": "2",
+          "title": "Trusted Service",
+          "description": "Transparent order tracking, authenticated guarantees, and direct communication.",
+          "icon": "ShieldCheck",
+          "color": "indigo"
+        },
+        {
+          "id": "3",
+          "title": "Fast Delivery",
+          "description": "Express 2-4 day delivery across Lahore, Karachi, Islamabad, and all Pakistan regions.",
+          "icon": "Truck",
+          "color": "emerald"
+        },
+        {
+          "id": "4",
+          "title": "Secure Shopping",
+          "description": "Pay upon safe delivery with Cash on Delivery or verified direct banking transfer.",
+          "icon": "CheckCircle",
+          "color": "purple"
+        },
+        {
+          "id": "5",
+          "title": "24/7 Concierge",
+          "description": "Dedicated styling consultations, sizing guidance, and post-purchase care.",
+          "icon": "Clock",
+          "color": "rose"
+        }
+      ]
+    },
+    "currency": "PKR",
+    "currencySymbol": "Rs.",
+    "deliveryFee": 250,
+    "freeDeliveryThreshold": 3500,
+    "contactEmail": "support@bizora.com",
+    "contactPhone": "+92 (300) 123-4567",
+    "address": "BIZORA Flagship Atelier, MM Alam Road, Gulberg III, Lahore, Pakistan",
+    "announcementText": "✨ Flash Offer: Enjoy FREE express delivery on orders over Rs. 3,500 across Pakistan! Use code BIZORA10 for 10% off.",
+    "facebookUrl": "https://facebook.com",
+    "instagramUrl": "https://instagram.com",
+    "twitterUrl": "https://twitter.com",
+    "whatsappNumber": "+923001234567"
+  },
+  "media": [
+    {
+      "id": "med_regen_cap_marble",
+      "name": "BIZORA Spade Emblem Cap on Marble",
+      "url": "/uploads/regenerated_image_1788787504402.png",
+      "category": "products",
+      "mimeType": "image/png",
+      "size": 960000,
+      "createdAt": "2026-09-07T13:47:28.286Z"
+    },
+    {
+      "id": "med_regen_watch_silver",
+      "name": "BIZORA Chrono Luxury Silver Timepiece",
+      "url": "/uploads/regenerated_image_1788787497825.png",
+      "category": "products",
+      "mimeType": "image/png",
+      "size": 2400000,
+      "createdAt": "2026-09-07T13:47:28.286Z"
+    },
+    {
+      "id": "med_regen_perfume_bottle",
+      "name": "BIZORA Noir Eau de Parfum Bottle",
+      "url": "/uploads/regenerated_image_1788787494636.png",
+      "category": "products",
+      "mimeType": "image/png",
+      "size": 396000,
+      "createdAt": "2026-09-07T13:47:28.286Z"
+    },
+    {
+      "id": "med_regen_cosmetics_traditional",
+      "name": "BIZORA Traditional Atelier Attire & Care Set",
+      "url": "/uploads/regenerated_image_1788787488028.jpg",
+      "category": "products",
+      "mimeType": "image/jpeg",
+      "size": 2300000,
+      "createdAt": "2026-09-07T13:47:28.286Z"
+    },
+    {
+      "id": "med_regen_cap_white_logo",
+      "name": "BIZORA White Logo Baseball Cap",
+      "url": "/uploads/regenerated_image_1788787484237.png",
+      "category": "products",
+      "mimeType": "image/png",
+      "size": 740000,
+      "createdAt": "2026-09-07T13:47:28.286Z"
+    },
+    {
+      "id": "med_regen_perfume_model",
+      "name": "BIZORA Noir Fragrance Editorial",
+      "url": "/uploads/regenerated_image_1788787478718.jpg",
+      "category": "products",
+      "mimeType": "image/jpeg",
+      "size": 1500000,
+      "createdAt": "2026-09-07T13:47:28.286Z"
+    },
+    {
+      "id": "med_regen_shoes",
+      "name": "BIZORA Black Air Sneaker with Box",
+      "url": "/uploads/regenerated_image_1788787471690.png",
+      "category": "products",
+      "mimeType": "image/png",
+      "size": 2100000,
+      "createdAt": "2026-09-07T13:47:28.286Z"
+    },
+    {
+      "id": "med_regen_hero",
+      "name": "BIZORA Lifestyle Showcase Banner",
+      "url": "/uploads/regenerated_image_1788787466475.png",
+      "category": "banners",
+      "mimeType": "image/png",
+      "size": 1100000,
+      "createdAt": "2026-09-07T13:47:28.286Z"
+    },
+    {
+      "id": "med_hero_watch",
+      "name": "Hero Chrono Master Automatic",
+      "url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1000&auto=format&fit=crop",
+      "category": "banners",
+      "mimeType": "image/jpeg",
+      "size": 245000,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "med_shoe_oxford",
+      "name": "Royal Oxford Calfskin",
+      "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1000&auto=format&fit=crop",
+      "category": "products",
+      "mimeType": "image/jpeg",
+      "size": 320000,
+      "createdAt": "2026-01-02T00:00:00.000Z"
+    },
+    {
+      "id": "med_perfume_oud",
+      "name": "Oud Royale Extrait de Parfum",
+      "url": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=1000&auto=format&fit=crop",
+      "category": "products",
+      "mimeType": "image/jpeg",
+      "size": 198000,
+      "createdAt": "2026-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "med_cat_watches",
+      "name": "Category Watches Cover",
+      "url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=800&auto=format&fit=crop",
+      "category": "categories",
+      "mimeType": "image/jpeg",
+      "size": 184000,
+      "createdAt": "2026-01-04T00:00:00.000Z"
+    },
+    {
+      "id": "med_about_atelier",
+      "name": "BIZORA Workshop Heritage",
+      "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1000&auto=format&fit=crop",
+      "category": "banners",
+      "mimeType": "image/jpeg",
+      "size": 412000,
+      "createdAt": "2026-01-05T00:00:00.000Z"
+    }
+  ]
+}
